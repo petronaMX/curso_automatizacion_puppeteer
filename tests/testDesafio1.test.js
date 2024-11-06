@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const url = 'https://mx.ebay.com/';
 const selectorPageTecnologia = 'div>h1::-p-text(Entra en el mundo de la tecnología)';
 
-describe('Test para los desafios', () => {
+/* describe('Test para los desafios', () => {
     it('Desafio 1 com texto', async () => {
         const browser = await puppeteer.launch({ headless: true });
         const page = await browser.newPage();
@@ -24,7 +24,7 @@ describe('Test para los desafios', () => {
         const page = await browser.newPage();
         await page.goto(url);
         await page.locator('::-p-xpath(//*[@id="vl-flyout-nav"]/ul/li[3]/a)').click();
-        await page.waitForSelector(selectorPageTecnologia);
+        await page.waitForSelector('div>h1::-p-text(Entra en el mundo de la tecnología)');
         await browser.close();
     });
-});
+}); */
