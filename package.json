@@ -1,0 +1,20 @@
+{
+  "name": "curso_automatizacion_puppeteer",
+  "version": "1.0.0",
+  "description": "Proyecto de curso de automatización de pruebas con puppeteer",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx mocha --timeout=30000 ./tests"
+  },
+  "author": "Jesús Petrona Castro",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "puppeteer": "^23.7.0"
+  }
+}
